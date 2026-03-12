@@ -1,0 +1,102 @@
+/*------------------- Базовий клас для всіх кнопок -------------------*/
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var();
+    border: none;
+    border-radius: 0px;
+    opacity: 0.6;
+    transition: color var(--transition),
+        background-color var(--transition),
+        border-color var(--transition),
+        opacity var(--transition),
+        transform var(--transition);
+}
+
+.button:hover,
+.button:focus {
+    color: var();
+    background-color: var();
+    border-color: var();
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+/* ------------------- Кнопка бургер меню ------------------- */
+.burger-menu {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width: 768px) {
+    .burger-menu {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {}
+
+
+
+/* ------------------- Кнопка закриття (Modal / Menu) ------------------- */
+.button-close {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+    border: none;
+}
+
+.button-close:hover {
+    transform: rotate(90deg);
+}
+
+.mobile-menu-button-close {
+    top: 16px;
+    right: 16px;
+}
+
+
+
+
+/* ------------------- Кнопка прокрутки -------------------*/
+.button-scroll {
+    position: fixed;
+    z-index: 90;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 2px solid var();
+    background-color: var();
+    color: var();
+    opacity: 0.6;
+}
+
+.button-scroll:hover,
+.button-scroll:focus {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.button-scroll-up {
+    bottom: 80px;
+    right: 20px;
+}
+
+.button-scroll-down {
+    bottom: 20px;
+    right: 20px;
+}

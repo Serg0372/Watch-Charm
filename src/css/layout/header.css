@@ -1,0 +1,35 @@
+.header {
+    padding: px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: px;
+}
+
+@media (min-width: 768px) {
+    .nav {
+        position: static;
+        width: auto;
+        height: auto;
+        padding: 0;
+        background: transparent;
+    }
+
+    .nav-list {
+        flex-direction: row;
+    }
+
+    .burger {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {}

@@ -1,0 +1,21 @@
+.footer {
+    padding: px px;
+    background-color: var();
+    color: var();
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: px;
+    text-align: center;
+}
+
+
+@media (min-width: 768px) {
+    .footer {
+        font-size: px;
+    }
+}
+
+@media screen and (min-width: 1200px) {}

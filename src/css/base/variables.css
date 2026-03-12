@@ -1,0 +1,92 @@
+:root {
+    --clr-brand-primary: ;
+    /* Основний*/
+    --clr-brand-pressed: ;
+    /* для ховерів/активних станів*/
+    --clr-brand-light: ;
+    /* для кнопок або фону*/
+
+    --clr-txt-main: ;
+    /* Основний текст*/
+    --clr-txt-title: ;
+    /* Заголовки та темні акценти*/
+    --clr-txt-light: ;
+    /* Білий текст (на темному фоні)*/
+    --clr-txt-helper: ;
+    /* Другорядний текст, іконки, адреса */
+
+    --clr-bg-main: ;
+    /* Основний фон сторінки */
+    --clr-bg-alt: ;
+    /* Світло-сірий фон для секцій (наприклад, Team) */
+    --clr-bg-dark: ;
+    /* Темний фон для Hero та Footer */
+
+    --clr-border: ;
+    /* Колір рамок та ліній розділювачів (Cornflower) */
+    --clr-success: ;
+    /* Зелений для форм або успішних дій */
+
+    --linear-gradient: linear-gradient(rgb(46, 47, 66, 70%), rgb(46, 47, 66, 70%));
+    --box-shadow: 0 1px 6px 0 rgb(46, 47, 66, 8%);
+    --box-shadow-pressed: 0 2px 1px 0 rgb(46, 47, 66, 8%),
+        0 1px 1px 0 rgb(46, 47, 66, 16%),
+        0 1px 6px 0 rgb(46, 47, 66, 8%);
+
+    /* 3. Fonts Family */
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+
+
+    /* 4. Font Sizes (Mobile First) */
+    --fs-hero: 36px;
+    --fs-h2: 36px;
+    --fs-h3: 20px;
+    --fs-logo: 18px;
+    --fs-main: 16px;
+    --fs-psdr: 12px;
+
+
+    /* 5. Font Weights */
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+
+    /* 6. Line Heights */
+    --lh-hero: 1.11;
+    --lh-logo: 1.17;
+    --lh-heading: 1.2;
+    --lh-policy-accent: 1.33;
+    --lh-main: 1.5;
+    --lh-psdr: 2;
+
+    /* 7. Letter Spacing */
+    --ls-base: 0.02em;
+    --ls-logo: 0.03em;
+    --ls-form: 0.04em;
+
+    /* 8. Transitions */
+    --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 750ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+/* Планшет (768px+) */
+@media screen and (min-width: 768px) {
+    :root {
+        --fs-hero: ;
+        /* Збільшуємо для планшета */
+        --fs-h2: ;
+    }
+}
+
+/* ДЕСКТОП (від 1200px) */
+@media screen and (min-width: 1200px) {
+    :root {
+        --fs-hero: ;
+        /* Фінальний розмір за макетом */
+        --fs-h2: ;
+    }
+}

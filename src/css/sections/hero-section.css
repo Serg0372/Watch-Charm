@@ -1,0 +1,47 @@
+.hero-section {
+    background-image: var(), url();
+    background-color: var();
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+@media (min-resolution: 192dpi) {
+    .hero-section {
+        background-image: var(), url();
+    }
+}
+
+.hero-container {
+    text-align: center;
+    min-height: px;
+    padding-top: px;
+}
+
+.hero-title {
+    margin-bottom: px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .hero-section {
+        background-image: var(), url();
+    }
+
+    @media (min-resolution: 192dpi) {
+        .hero-section {
+            background-image: var(), url();
+        }
+    }
+
+    .hero-container {
+        min-height: px;
+        padding-top: px;
+    }
+
+    .hero-title {
+        margin-bottom: px;
+    }
+}
+
+@media screen and (min-width: 1240px) {}
