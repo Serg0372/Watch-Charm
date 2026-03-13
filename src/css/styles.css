@@ -1,27 +1,28 @@
 /* Base styles */
-@import url('./base/variables.css');
-@import url('./base/reset.css');
-@import url('./base/fonts.css');
-@import url('./base/base.css');
+@import './base/variables.css';
+@import './base/reset.css';
+@import './base/fonts.css';
+@import './base/base.css';
 
 /* Components styles */
-@import url('./components/buttons.css');
-@import url('./components/icons.css');
-@import url('./components/mobile-menu.css');
-@import url('./components/modal.css');
-@import url('./components/forms.css');
-@import url('./components/overlay.css');
+@import './components/buttons.css';
+@import './components/icons.css';
+@import './components/mobile-menu.css';
+/* @import './components/modal.css'; */
+@import './components/forms.css';
+/* @import './components/overlay.css'; */
 /* @import url('./components/animations.css'); */
-/* @import url('./components/cards.css'); */
+@import './components/cards.css';
 
 /* Layout styles */
-@import url('./layout/header.css');
-@import url('./layout/footer.css');
+@import './layout/header.css';
+@import './layout/footer.css';
 
 /* Sections styles */
-/* @import url('./sections/hero.css'); */
-/* @import url('./sections/about.css'); */
-/* @import url('./sections/services.css'); */
-/* @import url('./sections/team.css'); */
-/* @import url('./sections/portfolio.css'); */
-/* @import url('./sections/contacts.css'); */
+@import './sections/hero.css';
+@import './sections/about-section.css';
+@import './sections/catalog-section.css';
+@import './sections/advertisement-section.css';
+@import './sections/sales-section.css';
+@import './sections/reviews-section.css';
+@import './sections/contact-section.css';
