@@ -1,39 +1,26 @@
-/* ---------------- Header & General Logo ---------------- */
-.logo {
-    display: block;
-}
-
-.logo-icon {
-    width: px;
-    height: px;
-    fill: var();
-    transition: fill var(--transition);
-}
-
-.logo:hover .logo-icon,
-.logo:focus .logo-icon {
-    fill: var();
-}
-
-
 /* ---------------- Burger Menu icon ---------------- */
 .burger-icon {
-    width: 24px;
-    height: 24px;
-    fill: var();
-    stroke: var();
-    transition: fill var(--transition), stroke var(--transition);
+    width: 34px;
+    height: 34px;
+    stroke: var(--color-dark);
+    transition: stroke var(--transition);
 }
 
 .burger-menu:hover .burger-icon,
 .burger-menu:focus .burger-icon {
-    fill: var();
-    stroke: var();
+    stroke: var(--color-accent);
+}
+
+@media screen and (min-width: 768px) {
+    .burger-icon {
+        width: 40px;
+        height: 40px;
+    }
 }
 
 
 /* ---------------- Button Close icon ---------------- */
-.button-close-icon {
+/* .button-close-icon {
     fill: none;
     stroke: var();
     transition: stroke var(--transition);
@@ -42,11 +29,11 @@
 .button-close:hover .button-close-icon,
 .button-close:focus .button-close-icon {
     stroke: var();
-}
+} */
 
 
 /* ---------------- Button Scroll icon ---------------- */
-.button-scroll-icon {
+/* .button-scroll-icon {
     fill: var();
     transition: fill var(--transition), transform var(--transition);
 }
@@ -62,10 +49,10 @@
 .button-scroll:hover .button-scroll-icon,
 .button-scroll:focus .button-scroll-icon {
     fill: var();
-}
+} */
 
 /* ---------------- Social icon ---------------- */
-.social-icon {
+/* .social-icon {
     fill: var();
     transition: fill var(--transition);
 }
@@ -77,4 +64,4 @@
 
 @media screen and (min-width: 768px) {}
 
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {} */

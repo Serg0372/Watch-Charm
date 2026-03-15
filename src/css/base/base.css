@@ -9,7 +9,7 @@ body {
   font-size: var(--fs-main);
   font-weight: var(--fw-medium);
   line-height: var(--lh-text);
-  color: var(--text-main-dark);
+  color: var(--color-dark);
 
   /* Покращення відображення шрифтів */
   text-rendering: optimizeLegibility;
@@ -33,16 +33,18 @@ body {
   padding-left: 20px;
 }
 
+
 h1 {
   font-size: var(--fs-hero);
   font-weight: var(--fw-medium);
-  color: var(--color-dark);
+  /* color: var(--color-dark); */
 }
 
 h2 {
   margin-bottom: 24px;
   font-size: var(--fs-h2);
   font-weight: var(--fw-semibold);
+  /* color: var(--color-dark); */
 }
 
 li a {
