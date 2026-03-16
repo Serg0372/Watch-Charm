@@ -1,47 +1,117 @@
 .hero-section {
-    background-image: var(), url();
-    background-color: var();
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-}
-
-@media (min-resolution: 192dpi) {
-    .hero-section {
-        background-image: var(), url();
-    }
+    padding-top: 74px;
 }
 
 .hero-container {
-    text-align: center;
-    min-height: px;
-    padding-top: px;
+    padding-top: 60px;
+    text-align: start;
+}
+
+.hero-description {
+    color: var(--text-main-dark);
+}
+
+.hero-text-box {
+    margin-bottom: 28px;
 }
 
 .hero-title {
-    margin-bottom: px;
+    margin-bottom: 20px;
 }
 
+.hero-accent {
+    color: var(--color-accent);
+}
+
+.hero-review-box {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    height: 100%;
+    margin-bottom: 28px;
+}
+
+.hero-review-img-box {
+    width: 108px;
+    height: 44px
+}
+
+.hero-scroll {
+    text-decoration: underline;
+}
+
+.hero-watch-img-box {
+    overflow: hidden;
+
+    min-width: 335px;
+    min-height: 366px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 30px;
+}
+
+.hero-watch-img {
+    width: 100%;
+    height: 100%;
+}
 
 @media screen and (min-width: 768px) {
     .hero-section {
-        background-image: var(), url();
-    }
-
-    @media (min-resolution: 192dpi) {
-        .hero-section {
-            background-image: var(), url();
-        }
+        padding-top: 92px;
     }
 
     .hero-container {
-        min-height: px;
-        padding-top: px;
+        padding-top: 80px;
     }
 
-    .hero-title {
-        margin-bottom: px;
+    .hero-box {
+        display: flex;
+        gap: 10px;
+        height: 320px;
+        margin-bottom: 40px;
+    }
+
+    .hero-text-box {
+        margin-bottom: 0;
+    }
+
+    .hero-description {
+        max-width: 480px;
+    }
+
+    .hero-review-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        height: 100%;
+        margin-bottom: 0;
+    }
+
+    .hero-review-img-box {
+        width: 136px;
+        height: 60px;
     }
 }
 
-@media screen and (min-width: 1240px) {}
+@media screen and (min-width: 1280px) {
+    .hero-section {
+        padding-top: 88px;
+    }
+
+    .hero-box {
+        display: flex;
+        gap: 400px;
+        height: 270px;
+        margin-bottom: 40px;
+    }
+
+    .hero-description {
+        max-width: 480px;
+    }
+
+    .hero-text-box {
+        max-width: 600px;
+    }
+}

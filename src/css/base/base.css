@@ -36,7 +36,8 @@ body {
 
 h1 {
   font-size: var(--fs-hero);
-  font-weight: var(--fw-medium);
+  font-weight: var(--fw-semibold);
+  line-height: var(--lh-hero);
   /* color: var(--color-dark); */
 }
 
@@ -81,13 +82,13 @@ li a {
   }
 
   .container {
-    max-width: 720px;
+    max-width: 768px;
     padding-right: 32px;
     padding-left: 32px;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
 
   .section {
     padding-top: 50px;
@@ -95,7 +96,7 @@ li a {
   }
 
   .container {
-    max-width: 1158px;
+    max-width: 1280px;
     padding-right: 65px;
     padding-left: 65px;
   }

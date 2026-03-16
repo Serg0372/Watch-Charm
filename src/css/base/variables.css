@@ -4,18 +4,21 @@
     --color-dark: #0c0c0c;
     --color-card-bg: #f3f3f3;
     --color-light: #fbfbfb;
+    --color-btn-hover: #1b3dfe;
 
     /* Текст та елементи на світлому фоні */
     --text-main-dark: rgba(12, 12, 12, 0.7);
     --text-price-dark: rgba(12, 12, 12, 0.5);
     --text-secondary-dark: rgba(12, 12, 12, 0.4);
-    --border-form: 1px solid rgba(12, 12, 12, 0.15);
+
 
     /* Текст та елементи на темному фоні */
     --text-secondary-light: rgba(251, 251, 251, 0.7);
     --text-muted-light: rgba(251, 251, 251, 0.5);
     --border-light: 1px solid rgba(251, 251, 251, 0.2);
     --border-header: 1px solid rgba(12, 12, 12, 0.1);
+    --border-form: 1px solid rgba(12, 12, 12, 0.15);
+    --border-card: 1px solid rgba(12, 12, 12, 0.05);
     --bg-price-tag: rgba(251, 251, 251, 0.1);
 
     /* --- 2. ШРИФТИ: ТИП ТА ВАГА (FONTS & WEIGHTS) --- */
@@ -87,5 +90,12 @@
         --lh-h3card: 1;
         --lh-h2: 0.92;
         --lh-hero: 0.86;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    :root {
+        --fs-hero: 72px;
+        --lh-hero: 0.88;
     }
 }
