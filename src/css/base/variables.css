@@ -4,7 +4,8 @@
     --color-dark: #0c0c0c;
     --color-card-bg: #f3f3f3;
     --color-light: #fbfbfb;
-    --color-btn-hover: #1b3dfe;
+    --color-btn-hover: #1f3cd4;
+
 
     /* Текст та елементи на світлому фоні */
     --text-main-dark: rgba(12, 12, 12, 0.7);
@@ -55,12 +56,13 @@
     --lh-review-name: 1.25;
     --lh-footer-text: 1.2;
     --lh-logo: 1.17;
-    --lh-title-card: 1.13;
+    --lh-title-card: 1.17;
     --lh-h2: 1;
     --lh-hero: 0.95;
 
     /* --- 5. ДОДАТКОВО (SPACING & TRANSITIONS) --- */
-    --ls-base: 0.02em;
+    --ls-base: -0.02em;
+    --ls-specific: 0.02em;
     --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     --transition-slow: 750ms cubic-bezier(0.4, 0, 0.2, 1);
 }

@@ -11,6 +11,7 @@
 
 .catalog-title {
     margin-bottom: 24px;
+    text-align: left;
 }
 
 .catalog-item {
@@ -27,6 +28,11 @@
 .catalog-img-box {
     padding-bottom: 10px;
     object-fit: cover;
+}
+
+.catalog-img {
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .catalog-subtitle {

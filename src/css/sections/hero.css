@@ -39,6 +39,13 @@
 
 .hero-scroll {
     text-decoration: underline;
+    transition: color var(--transition), text-decoration var(--transition);
+}
+
+.hero-scroll:hover,
+.hero-scroll:focus {
+    color: var(--color-accent);
+    text-decoration: underline;
 }
 
 .hero-watch-img-box {
@@ -68,7 +75,7 @@
     .hero-box {
         display: flex;
         gap: 10px;
-        height: 320px;
+        height: 260px;
         margin-bottom: 40px;
     }
 
