@@ -53,33 +53,32 @@
 
 /* ---------------- Social icon ---------------- */
 
+.social-item {
+    border: var(--border-header);
+    border-radius: 10px;
+    transition: border-color var(--transition-slow), opacity var(--transition-slow);
+}
+
+.social-link {
+    padding: 8px;
+}
+
+.social-icon {
+    fill: var(--color-dark);
+    transition: fill var(--transition-slow)
+}
+
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
+    fill: var(--color-accent);
+}
+
+.social-item:hover,
+.social-item:focus {
+    border: 1px solid var(--color-accent);
+    opacity: 0.8;
+}
 
 @media screen and (min-width: 768px) {}
 
-@media screen and (min-width: 1280px) {
-    .social-item {
-        border: var(--border-header);
-        border-radius: 10px;
-        transition: border-color var(--transition-slow), opacity var(--transition-slow);
-    }
-
-    .social-link {
-        padding: 8px;
-    }
-
-    .social-icon {
-        fill: var(--color-dark);
-        transition: fill var(--transition-slow)
-    }
-
-    .social-link:hover .social-icon,
-    .social-link:focus .social-icon {
-        fill: var(--color-accent);
-    }
-
-    .social-item:hover,
-    .social-item:focus {
-        border: 1px solid var(--color-accent);
-        opacity: 0.8;
-    }
-}
+@media screen and (min-width: 1280px) {}

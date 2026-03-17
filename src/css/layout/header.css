@@ -41,6 +41,10 @@
         padding-top: 26px;
         padding-bottom: 26px;
     }
+
+    .header-social-list {
+        display: none;
+    }
 }
 
 
