@@ -18,11 +18,12 @@
 .sales-list {
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    justify-content: space-between;
+    /* gap: 5px; */
 }
 
 .sales-item {
-    width: calc((100% - 5px*3)/4);
+    /* width: calc((100% - 5px*3)/4); */
     width: 80px;
     height: 80px;
     padding: 8px;
@@ -33,8 +34,8 @@
 }
 
 .sales-img-box {
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
     object-fit: cover;
 }
 
@@ -51,14 +52,14 @@
 }
 
 .sales-img-box-last {
-    min-width: 235px;
-    min-height: 285px;
+    /* min-width: 235px;
+    min-height: 285px; */
     object-fit: cover;
 }
 
 .sales-img-last {
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
     margin-right: auto;
     margin-left: auto;
 }
