@@ -20,6 +20,11 @@
     margin-bottom: 40px;
 }
 
+.footer-social-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
 .footer-social-list {
     display: flex;
@@ -42,6 +47,13 @@
 
     font-size: var(--fs-card-feauters);
     line-height: var(--lh-card-feauters);
+
+    transition: border-color var(--transition);
+}
+
+.contact-phone:hover,
+.contact-phone:focus {
+    border-color: var(--color-accent);
 }
 
 
@@ -163,11 +175,7 @@
         margin-bottom: 86px;
     }
 
-    .footer-social-box {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
+
 
     .footer-text {
         margin-bottom: 100px;

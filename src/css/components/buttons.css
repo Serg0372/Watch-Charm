@@ -74,13 +74,9 @@
 
 
 /* ------------------- Кнопка закриття (Modal / Menu) ------------------- */
-/* .button-close {
+.button-close {
     position: absolute;
-
-    width: 16px;
-    height: 16px;
     border: none;
-
     background-color: transparent;
 }
 
@@ -89,10 +85,16 @@
 }
 
 .mobile-menu-button-close {
-    top: 16px;
-    right: 16px;
-} */
+    top: 20px;
+    right: 20px;
+}
 
+@media screen and (min-width: 768px) {
+    .mobile-menu-button-close {
+        top: 26px;
+        right: 32px;
+    }
+}
 
 
 
