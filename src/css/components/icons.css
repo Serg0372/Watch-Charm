@@ -43,8 +43,8 @@
 }
 
 /* ---------------- Button Scroll icon ---------------- */
-/* .button-scroll-icon {
-    fill: var();
+.button-scroll-icon {
+    fill: var(--color-accent);
     transition: fill var(--transition), transform var(--transition);
 }
 
@@ -58,8 +58,9 @@
 
 .button-scroll:hover .button-scroll-icon,
 .button-scroll:focus .button-scroll-icon {
-    fill: var();
-} */
+    fill: var(--color-btn-hover);
+}
+
 
 /* ---------------- Social icon ---------------- */
 

@@ -99,19 +99,27 @@
 
 
 /* ------------------- Кнопка прокрутки -------------------*/
-/* .button-scroll {
+.button-scroll {
     position: fixed;
     z-index: 90;
 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
     width: 48px;
     height: 48px;
-    border: 2px solid var();
+    border: 2px solid var(--color-accent);
     border-radius: 50%;
 
-    color: var();
+    color: var(--color-accent);
 
     opacity: 0.6;
-    background-color: var();
+    background-color: var(--color-card-bg: #f3f3f3);
+
+    transition:
+        transform var(--transition),
+        opacity var(--transition);
 }
 
 .button-scroll:hover,
@@ -128,4 +136,4 @@
 .button-scroll-down {
     right: 20px;
     bottom: 20px;
-} */
+}
