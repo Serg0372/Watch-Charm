@@ -38,18 +38,18 @@
     --fs-h3card: 16px;
     --fs-review-name: 16px;
     --fs-main: 14px;
-    --fs-scrool: 14px;
+    --fs-scroll: 14px;
     --fs-card-code: 14px;
     --fs-review-text: 14px;
     --fs-old-price: 12px;
-    --fs-card-feauters: 12px;
+    --fs-card-features: 12px;
     --fs-footer-copyright: 10px;
 
     /* --- 4. МІЖРЯДКОВИЙ ІНТЕРВАЛ (LINE HEIGHTS) --- */
     --lh-footer-copyright: 1.4;
-    --lh-card-feauters: 1.33;
+    --lh-card-features: 1.33;
     --lh-heading: 1.29;
-    --lh-scrool: 1.29;
+    --lh-scroll: 1.29;
     --lh-card-code: 1.29;
     --lh-text: 1.29;
     --lh-h3card: 1.25;
@@ -75,21 +75,21 @@
         --fs-title-card: 32px;
         --fs-form-text: 28px;
         --fs-logo: 20px;
-        --fs-scrool: 20px;
+        --fs-scroll: 20px;
         --fs-h3card: 20px;
         --fs-review-name: 18px;
         --fs-main: 16px;
         --fs-review-text: 16px;
-        --fs-card-feauters: 14px;
+        --fs-card-features: 14px;
         --fs-footer-copyright: 14px;
         --lh-footer-copyright: 1.29;
-        --lh-card-feauters: 1.29;
+        --lh-card-features: 1.29;
         --lh-text: 1.25;
         --lh-heading: 1.25;
         --lh-footer-text: 1.14;
         --lh-title-card: 1.13;
         --lh-review-name: 1.1;
-        --lh-scrool: 1;
+        --lh-scroll: 1;
         --lh-h3card: 1;
         --lh-h2: 0.92;
         --lh-hero: 0.86;

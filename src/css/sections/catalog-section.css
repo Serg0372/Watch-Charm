@@ -25,14 +25,21 @@
     display: none;
 }
 
+.catalog-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: left;
+}
+
 .catalog-img-box {
     padding-bottom: 10px;
-    object-fit: cover;
 }
 
 .catalog-img {
     margin-right: auto;
     margin-left: auto;
+    object-fit: cover;
 }
 
 .catalog-subtitle {

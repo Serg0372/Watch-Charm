@@ -54,7 +54,7 @@
         padding-bottom: 30px;
     }
 
-    .nav {
+    .header-nav {
         display: flex;
         font-size: var(--fs-card-code);
         line-height: var(--lh-card-code);

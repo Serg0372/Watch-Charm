@@ -2,15 +2,28 @@ import { defineConfig } from 'vite';
 import { glob } from 'glob';
 import injectHTML from 'vite-plugin-html-inject';
 import FullReload from 'vite-plugin-full-reload';
-import SortCss from 'postcss-sort-media-queries';
+import sortMediaQueries from 'postcss-sort-media-queries';
 
 export default defineConfig(({ command }) => {
   return {
     base: './',
+
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
+
     root: './',
+
+    css: {
+      postcss: {
+        plugins: [
+          sortMediaQueries({
+            sort: 'mobile-first',
+          }),
+        ],
+      },
+    },
+
     build: {
       sourcemap: true,
       rollupOptions: {
@@ -25,7 +38,7 @@ export default defineConfig(({ command }) => {
             if (chunkInfo.name === 'commonHelpers') {
               return 'commonHelpers.js';
             }
-            return '[name].js';
+            return 'assets/[name]-[hash].js';
           },
           assetFileNames: assetInfo => {
             if (assetInfo.name && assetInfo.name.endsWith('.html')) {
@@ -38,12 +51,7 @@ export default defineConfig(({ command }) => {
       outDir: 'dist',
       emptyOutDir: true,
     },
-    plugins: [
-      injectHTML(),
-      FullReload(['./**/*.html']),
-      SortCss({
-        sort: 'mobile-first',
-      }),
-    ],
+
+    plugins: [injectHTML(), FullReload(['./**/*.html'])],
   };
 });

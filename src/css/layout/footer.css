@@ -1,3 +1,7 @@
+.footer-container {
+    padding-bottom: 20px;
+}
+
 .footer-box {
     display: flex;
     flex-direction: column;
@@ -139,6 +143,7 @@
 .footer-address {
     display: block;
     width: 84px;
+    font-style: normal;
 }
 
 .footer-legal-box {
@@ -160,6 +165,10 @@
 
 
 @media (min-width: 768px) {
+    .footer-container {
+        padding-bottom: 44px;
+    }
+
     .footer-box {
         padding: 40px 40px 28px;
     }
@@ -243,6 +252,10 @@
 
 
 @media screen and (min-width: 1200px) {
+    .footer-container {
+        padding-bottom: 32px;
+    }
+
     .footer-box {
         position: relative;
         padding: 40px 40px 28px;
