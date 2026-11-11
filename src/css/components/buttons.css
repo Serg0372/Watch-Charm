@@ -124,7 +124,7 @@
 
 .button-scroll:hover,
 .button-scroll:focus {
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
     opacity: 1;
 }
 
